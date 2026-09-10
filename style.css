@@ -95,10 +95,6 @@ nav a{
     padding-bottom: 4px;
     white-space: nowrap;
 }
-
-nav a:hover {
-    border-bottom: 2px solid #7047eb;
-}
  
 h1{
     color: #21163a;
