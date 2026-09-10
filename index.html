@@ -248,14 +248,22 @@
         
     </footer>
 
-     <script>
+    <script>
         const botaoMenu = document.getElementById('menuHamburguer');
         const navMenu = document.getElementById('navMenu');
+        const linksMenu = navMenu.querySelectorAll('a');
 
         botaoMenu.addEventListener('click', () => {
             navMenu.classList.toggle('ativo');
             botaoMenu.classList.toggle('ativo');
         });
+
+        linksMenu.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('ativo');
+                botaoMenu.classList.remove('ativo');
+            });
+         });
     </script>
 
 </body>
