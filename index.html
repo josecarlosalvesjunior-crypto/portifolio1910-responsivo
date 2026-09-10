@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&family=VT323&display=swap" rel="stylesheet">
+
+    <title>Meu Portifolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-logo">
+        
+            <h1 class="nome-logo">J<span>Dev</span></h1>
+
+            <video class="logo" autoplay loop muted playsinline>
+                <source src="img/alienmonster_vetorpng.webm" type="video/webm">
+            </video>
+
+        </div>
+
+        <button class="menu-hamburguer" id="menuHamburguer" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="navMenu">
+            <a href="#inicio">Início</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="inicio" id="inicio">
+        <h1> Desenvolvedor em formação </h1>
+        <p>Me chamo José Carlos, sou um entusiasta por tecnologia</p>
+        <p>e por transformar problemas em sistemas funcionais e intuitivos.</p>
+        <p>Atualmente estudando e desenvolvendo projetos com Java,</p>
+        <p>bancos de dados e tecnologias web.</p>
+        
+        <a href="#projetos">
+            <button>Ver meus projetos</button>
+        </a>
+
+        <a href="#contato">
+            <button>Entre em contato</button>
+        </a>
+    </div>
+
+    <div class="logoFerramentas">
+        <img src="img/logo_css.png" alt="css">
+        <img src="img/logo_html.png" alt="html">
+        <img src="img/logo_javascript.png" alt="javascript">
+        <img src="img/logo_java.png" alt="java">
+        <img src="img/logo_figma.png" alt="figma">
+        <img src="img/logo_postegre.png" alt="postegre">
+    </div>
+
+    <h1 id="projetos">Projetos em destaque</h1>
+    <div class="projetos">
+        <div class="projeto1-card">
+            <div class="projeto1-conteudo">
+                <h2>SGEAC</h2>
+                <h3>Sistema de gestão de eventos acadêmicos</h3>
+                <p>Sistema desenvolvido em java para gerenciamento de participantes, palestrantes,
+                    atividades, incrições e avaliações de eventos.
+                </p>
+                <div class="projeto1-tecnologias">
+                    <span>Java</span>
+                    <span>POO</span>
+                    <span>Collections</span>
+                </div>
+                <div class="projeto1-botoes">
+                    <a href="https://github.com/josecarlosalvesjunior-crypto/sgeac.git" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">Ver projetos</button>
+                    </a>
+
+                    <a href="https://github.com/josecarlosalvesjunior-crypto" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projeto2-card">
+            <div class="projeto2-conteudo">
+                <h2>AGENDSERV</h2>
+                <h3>Sistema de agendamentos</h3>
+                <p>Sistema para gerenciamento de clientes,
+                    prestadores, serviços, agendamentos e pagamentos.
+                </p>
+                <div class="projeto2-tecnologias">
+                    <span>Java</span>
+                    <span>JDBC</span>
+                    <span>PostegreSQL</span>
+                    <span>SQL</span>
+                </div>
+                <div class="projeto2-botoes">
+                    <a href="https://github.com/josecarlosalvesjunior-crypto/agendserv.git" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">Ver projetos</button>
+                    </a>
+
+                    <a href="https://github.com/josecarlosalvesjunior-crypto" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="projeto3-card">
+            <div class="projeto3-conteudo">
+                <h2>Fit acadêmia</h2>
+                <h3>Sistema de acadêmia</h3>
+                <p>Interface responsiva para gerenciamento
+                    e acompanhamento de treinos.
+                </p>
+                <div class="projeto3-tecnologias">
+                    <span>Figma</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="projeto3-botoes">
+                    <a href="https://github.com/josecarlosalvesjunior-crypto/fit_academia.git" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">Ver projetos</button>
+                    </a>
+
+                    <a href="https://github.com/josecarlosalvesjunior-crypto" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="projeto4-card">
+            <div class="projeto4-conteudo">
+                <h2>Laboratório Java</h2>
+                <h3>Pequenos projetos</h3>
+                <p>Conjunto de projetos desenvolvidos para praticar
+                    lógica, estruturas de dados e programação Java.
+                </p>
+                <div class="projeto4-tecnologias">
+                    <span>Java</span>
+                    <span>Lógica</span>
+                    <span>Exercícios</span>
+                </div>
+                <div class="projeto4-botoes">
+                    <a href="https://github.com/josecarlosalvesjunior-crypto/labolatorio-java.git" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">Ver projetos</button>
+                    </a>
+
+                    <a href="https://github.com/josecarlosalvesjunior-crypto" target="_blank" rel="noopener noreferrer">
+                        <button class="botao-git">GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="sobre">Sobre mim</h1>
+
+    <section class="sobre">
+        <div class="foto-cod">
+            <img src="img/skills.png" alt="skills-jota">
+        </div>
+
+        <div class="sobre-mim">
+
+            <div class="foto-jota">
+                <img src="img/foto_jota.jpg" alt="fotoj">
+            </div>
+            <div class="sobre-conteudo">
+                <p>
+                    Sou estudante da área de tecnologia e venho desenvolvendo projetos acadêmicos
+                    e pessoais envolvendo desenvolvimento de sistemas, programação orientada a objetos,
+                    banco de dados e interfaces web.
+                </p>
+                <p>
+                    Tenho experiência prática com Java, PostegreSQL, JDBC, HTML, CSS, Java Script e Figma.
+                    Buscando sempre transformar requisitos em sistemas funcionais e interfaces simples de usar.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer" id="contato">
+
+        <div class="footer-conteudo">
+
+            <h2>
+                Vamos transformar ideias em
+                <span>projetos?</span>
+            </h2>
+
+            <div class="contatos">
+
+                <!-- E-mail -->
+                <a href="mailto:seuemail@gmail.com" class="contato">
+                    <div class="img_icone">
+                        <img src="img/logo_gmail.png" alt="logo_gmail">
+                    </div>
+
+                    <div class="contato-texto">
+                        <h3>E-mail</h3>
+                        <p>josecarlosalvessantana.jr@gmail.com</p>
+                    </div>
+                </a>
+
+
+                <!-- GitHub -->
+                <a href="https://github.com/josecarlosalvesjunior-crypto" target="_blank" rel="noopener noreferrer" class="contato">
+                    <div class="img_icone">
+                        <img src="img/logo_github.png" alt="logo_github">
+                    </div>
+
+                    <div class="contato-texto">
+                        <h3>GitHub</h3>
+                        <p>github.com/josecarlosalvesjunior-crypto</p>
+                    </div>
+                </a>
+
+
+                <!-- LinkedIn -->
+                <a href="#" class="contato">
+                    <div class="img_icone">
+                        <img src="img/logo_linkedin.png" alt="logo_linkedin">
+                    </div>
+
+                    <div class="contato-texto">
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/josecarlossantanadev</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+     <script>
+        const botaoMenu = document.getElementById('menuHamburguer');
+        const navMenu = document.getElementById('navMenu');
+
+        botaoMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('ativo');
+            botaoMenu.classList.toggle('ativo');
+        });
+    </script>
+
+</body>
+
+</html>
