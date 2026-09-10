@@ -124,6 +124,10 @@ p, span{
     margin-left: 35px;
 }
 
+.inicio a{
+    text-decoration: none;
+}
+
 .inicio button{
     width: 160px;
     height: 40px;
