@@ -32,7 +32,7 @@ header{
 .nome-logo{
     font-family: 'VT323', monospace;
     font-size: 52px;
-    color: #000000;
+    color: #ffffff;
     margin: 0;
     text-align: left;
 }
@@ -97,7 +97,7 @@ nav a{
 }
  
 h1{
-    color: #21163a;
+    color: #826caf;
     margin-top: 10vh;
     margin-bottom: 10px;
     margin-left: 35px;
