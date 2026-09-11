@@ -74,7 +74,7 @@ O layout se adapta em dois pontos de quebra principais:
 
 - **E-mail:** josecarlosalvessantana.jr@gmail.com
 - **GitHub:** [github.com/josecarlosalvesjunior-crypto](https://github.com/josecarlosalvesjunior-crypto)
-- **LinkedIn:** adicione o link do seu perfil
+- **LinkedIn:** [linkedin.com/in/josecarlossantanadev](https://www.linkedin.com/in/josecarlossantanadev)
 
 ---
 
