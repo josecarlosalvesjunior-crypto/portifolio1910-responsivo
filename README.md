@@ -2,7 +2,7 @@
 
 Portfólio pessoal desenvolvido para apresentar meus projetos, tecnologias e formas de contato, com foco em Java, lógica de programação e desenvolvimento web.
 
-## 🖥️ Sobre o projeto
+## Sobre o projeto
 
 Site de página única (single page) com as seguintes seções:
 
@@ -12,7 +12,7 @@ Site de página única (single page) com as seguintes seções:
 - **Sobre mim** — Breve resumo da trajetória e experiência
 - **Contato** — Links diretos para e-mail, GitHub e LinkedIn
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Layout responsivo, adaptado para desktop, tablet e mobile
 - Menu hambúrguer animado para telas menores, com fechamento automático ao selecionar uma opção
@@ -20,14 +20,14 @@ Site de página única (single page) com as seguintes seções:
 - Logo animada em vídeo (WebM) no header
 - Tipografia customizada combinando Poppins, Inter e VT323 (fonte pixelada)
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **HTML5** — estruturação semântica do conteúdo
 - **CSS3** — estilização, responsividade (media queries) e animações
 - **JavaScript** — lógica do menu hambúrguer (abrir/fechar)
 - **Google Fonts** — Inter, Poppins e VT323
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 ├── index.html
@@ -49,7 +49,7 @@ Site de página única (single page) com as seguintes seções:
 └── README.md
 ```
 
-## 🚀 Como executar localmente
+## Como executar localmente
 
 1. Clone o repositório
 ```bash
@@ -63,14 +63,14 @@ cd seu-repositorio
 
 3. Abra o arquivo `index.html` no navegador (ou use a extensão *Live Server* do VS Code)
 
-## 📱 Responsividade
+## Responsividade
 
 O layout se adapta em dois pontos de quebra principais:
 
 - `max-width: 1366px` — ativa o menu hambúrguer e reorganiza os cards de projeto em grid
 - `max-width: 600px` — ajusta espaçamentos, tamanhos de fonte e reorganiza a seção "Sobre mim"
 
-## 📫 Contato
+## Contato
 
 - **E-mail:** josecarlosalvessantana.jr@gmail.com
 - **GitHub:** [github.com/josecarlosalvesjunior-crypto](https://github.com/josecarlosalvesjunior-crypto)
